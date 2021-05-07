@@ -1,0 +1,29 @@
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/min/dropzone.min.css'); */
+@import url('../dropzone/dropzone.min.css');
+.sortable {
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.sortable li {
+	float: left;
+	width: 150px;
+	height: 200px;
+    overflow:hidden;
+    border:0px solid #0080ff;
+	text-align: center;
+    margin:5px;
+}
+li.sortable-placeholder {
+	border: 1px dashed #CCC;
+	background: none;
+}
+
+
+.dropzone {
+	min-height: 100px;
+}
